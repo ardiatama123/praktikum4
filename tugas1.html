@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tugas 1</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#sembunyi1").click(function(){
+			$("#foto1").hide();
+				});
+			$("#tampilkan1").click(function(){
+			$("#foto1").show();
+				});
+			$("#sembunyi2").click(function(){
+			$("#foto2").hide();
+				});
+			$("#tampilkan2").click(function(){
+			$("#foto2").show();
+				});
+			$("#sembunyi3").click(function(){
+			$("#foto3").hide();
+				});
+			$("#tampilkan3").click(function(){
+			$("#foto3").show();
+				});
+			});
+	</script>
+</head>
+<body>
+		<input id="sembunyi1" type="button"  value="sembunyikan">
+		<input id="tampilkan1" type="button"  value="tampilkan">
+		<br></br>
+		<input id="sembunyi2" type="button"  value="sembunyikan">
+		<input id="tampilkan2" type="button"  value="tampilkan">
+		<br></br>
+		<input id="sembunyi3" type="button"  value="sembunyikan">
+		<input id="tampilkan3" type="button"  value="tampilkan">
+		<br></br>
+		<img src="rizal.jpg" id="foto1">
+		<img src="logoupnbaru.png" id="foto2">
+		<img src="logo himasifo.png" id="foto3">
+</body>
+</html>

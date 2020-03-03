@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tugas2</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<style type="text/css">
+		.kotak{
+			height: 200px;
+			width: 200px;
+			background-color: yellow;
+			}
+		.kotak2{
+			height: 200px;
+			width: 200px;
+			background-color: yellow;
+			}
+		.kotak3{
+			height: 200px;
+			width: 200px;
+			background-color: yellow;
+			}
+		.kotak4{
+			height: 200px;
+			width: 200px;
+			background-color: yellow;
+			}		
+
+		.merah{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+		}
+		div{
+			float: left;
+			margin: 15px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".kotak").on("click",function(){
+			$("#kotak1").addClass("merah");
+			});
+			$(".kotak2").on("click",function(){
+			$("#kotak2").addClass("merah");
+			});
+			$(".kotak3").on("click",function(){
+			$("#kotak3").addClass("merah");
+			});
+			$(".kotak4").on("click",function(){
+			$("#kotak4").addClass("merah");
+			});
+		});
+	</script>
+</head>
+<body>
+	<p>Klik 2x Pada Kotak Untuk Mengubah Warna</p>
+	<div class="kotak" id="kotak1"></div>
+	<div class="kotak2" id="kotak2"></div>
+	<div class="kotak3" id="kotak3"></div>
+	<div class="kotak4" id="kotak4"></div>
+</body>
+</html>
